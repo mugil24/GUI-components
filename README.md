@@ -1,4 +1,4 @@
-# Ex.No: 2 To develop an application that uses GUI Components with Fonts and Colors. 
+# Ex.No: 1 To develop an application that uses GUI Components with Fonts and Colors. 
 Note: Create button for colors and fonts while clicking color or font button should change 
 
 
@@ -11,29 +11,25 @@ To create an application that uses GUI Components with Fonts and Colors using An
 Latest Version Android Studio
 
 ## ALGORITHM:
-Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as GUI_Components and click Next.
-
+Step 1: Open Android Studio and then click on File -> New -> New project.
+Step 2: Then type the Application name as HelloWorld and click Next.
 Step 3: Then select the Minimum SDK as shown below and click Next.
-
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
-Step 5: Design layout in activity_main.xml.
-
+Step 5: Design layout in activity_main.xml
 Step 6: Display message give in MainActivity file.
-
 Step 7: Save and run the application.
 
 ## PROGRAM:
 ```
 /*
 Program to print the text “GUIcomponent”.
-Developed by: Vaanmugil vs
-Registeration Number : 212221040174
+Developed by : ATLURU SAI VARDHAN REDDY
+Registeration Number : 212221040022
 */
 ```
-## ACTIVITY_MAIN.XML:
+
+MAIN ACTIVITY-XML
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -81,7 +77,8 @@ Registeration Number : 212221040174
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## MAINACTIVITY.JAVA:
+
+MAIN ACTIVITY-JAVA
 ```
 package com.example.gui_components;
 
@@ -96,7 +93,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    Float textSize,add=10.0f;
+    Float textSize,add=2.0f;
     Button colorButton;
     Button fontButton;
 
@@ -129,16 +126,21 @@ public class MainActivity extends AppCompatActivity {
                 textView.setTextSize(textSize);
             }
         });
-    }
+
+}
 }
 ```
 
+
 ## OUTPUT
-![Screenshot (205)](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/a59e6bea-a84f-4cbd-a4a1-bf5e74abfada)
-![Screenshot (206)](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/a361028c-5b50-4ecd-8915-d889b9d4979f)
-![Output1](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/da23fff0-41fc-4aa6-9352-42ece5a9353d)
-![Output2](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/1a57577e-8955-4bd7-8bf5-5c6e76f101bd)
-![Output3](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/324e9704-ec62-48e6-aa99-bddbd6eff0df)
+
+<img width="1080" alt="Screenshot 2024-03-10 184041" src="https://github.com/21005291/GUI-components/assets/112933167/aabdab7a-d478-43cd-833b-eb08c9fb76c2">
+
+
+<img width="1080" alt="Screenshot 2024-03-10 184056" src="https://github.com/21005291/GUI-components/assets/112933167/5978d735-8827-457d-bd5b-d637137883f3">
+
+
+<img width="266" alt="Screenshot 2024-03-10 184110" src="https://github.com/21005291/GUI-components/assets/112933167/45222791-1e7a-4a50-a7ad-0ffcb9affde7">
 
 
 
