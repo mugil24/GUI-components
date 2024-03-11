@@ -24,8 +24,8 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “GUIcomponent”.
-Developed by : ATLURU SAI VARDHAN REDDY
-Registeration Number : 212221040022
+Developed by : vaanmugil vs
+Registeration Number : 212221040174
 */
 ```
 
