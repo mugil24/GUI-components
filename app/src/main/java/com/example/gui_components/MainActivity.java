@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    Float textSize,add=10.0f;
+    Float textSize,add=2.0f;
     Button colorButton;
     Button fontButton;
 
@@ -44,5 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 textView.setTextSize(textSize);
             }
         });
-    }
+
+}
 }
