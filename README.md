@@ -132,10 +132,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 
-## OUTPUT
+## OUTPUT:
 
 <img width="1080" alt="Screenshot 2024-03-10 184041" src="https://github.com/21005291/GUI-components/assets/112933167/aabdab7a-d478-43cd-833b-eb08c9fb76c2">
-
 
 <img width="1080" alt="Screenshot 2024-03-10 184056" src="https://github.com/21005291/GUI-components/assets/112933167/5978d735-8827-457d-bd5b-d637137883f3">
 
